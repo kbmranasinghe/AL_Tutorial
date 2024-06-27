@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "environmentName": "BC230",
+            "server": "http://localhost:8080/BC230/",
+            "authentication": "Windows",
+            "serverInstance": "BC230",
+            "port": 7049,
+            "startupObjectId": 50102,
+            "startupObjectType": "Query",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
